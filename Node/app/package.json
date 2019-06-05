@@ -1,0 +1,32 @@
+{
+  "name": "take-home",
+  "version": "1.0.0",
+  "description": "Take home project for Redox.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccasey645/take-home.git"
+  },
+  "keywords": [
+    "Node",
+    "React",
+    "Express",
+    "SQLite"
+  ],
+  "author": "Casey Blair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/100health/take-home/issues"
+  },
+  "homepage": "https://github.com/ccasey645/take-home#readme",
+  "dependencies": {
+    "apidoc": "^0.17.7",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.2"
+  }
+}

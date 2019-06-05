@@ -1,0 +1,31 @@
+version: '3'
+services:
+  node-server:
+    build: Node/
+    ports:
+      - "8000:80"
+    links:
+      - redis
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 50M
+        reservations:
+          cpus: '0.25'
+          memory: 20M
+
+  redis:
+    build: Redis/
+    ports:
+      - "8002:6379"
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 50M
+        reservations:
+          cpus: '0.25'
+          memory: 20M

@@ -1,0 +1,3 @@
+[submodule "Node/app/frontend/take-home-frontend"]
+	path = Node/app/frontend/take-home-frontend
+	url = https://github.com/ccasey645/take-home-frontend.git
